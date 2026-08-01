@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "UserLayout": {
+      "path": "users/{userId}/settings/layout",
+      "schema": {
+        "chatWidth": "number",
+        "chatHeight": "number",
+        "widgetPanelWidth": "number",
+        "widgets": "array",
+        "updatedAt": "string"
+      }
+    },
+    "UserWidget": {
+      "path": "users/{userId}/widgets/{widgetId}",
+      "schema": {
+        "id": "string",
+        "type": "string",
+        "title": "string",
+        "category": "string",
+        "width": "number",
+        "height": "number",
+        "isCollapsed": "boolean",
+        "order": "number",
+        "data": "object",
+        "updatedAt": "string"
+      }
+    },
+    "UserNote": {
+      "path": "users/{userId}/notes/{noteId}",
+      "schema": {
+        "title": "string",
+        "content": "string",
+        "color": "string",
+        "updatedAt": "string"
+      }
+    },
+    "UserTask": {
+      "path": "users/{userId}/tasks/{taskId}",
+      "schema": {
+        "text": "string",
+        "completed": "boolean",
+        "createdAt": "string"
+      }
+    }
+  }
+}

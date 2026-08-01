@@ -1,0 +1,6 @@
+{
+  "name": "Google Gemini Desktop PC",
+  "description": "Google Gemini Desktop PC App mit Startverknüpfung auf dem Desktop, anpassbaren Desktop-Fenstern, Gemini 3.6 Flash KI Chat, Bildgenerierung und Desktop-Shortcut Export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
